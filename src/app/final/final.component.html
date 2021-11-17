@@ -1,0 +1,14 @@
+<div *ngFor="let p of getData.questions" >
+  <div class="cursor" (click)="getQuestion(p.Id)">{{p.Text}}</div>
+</div>
+
+<br>
+<br>
+<br>
+
+
+<div>
+  <div *ngFor="let p of resultHtml">
+    <div [innerHTML]="p.data" class="cursor" (click)="getAnswer(p.id, p.data)"></div>
+  </div>
+</div>

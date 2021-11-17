@@ -1,0 +1,8 @@
+.cursor{
+  cursor: pointer;
+  display: inline-block;
+  width: auto;
+}
+.cursor:hover{
+  background-color: rgba(0, 0, 255, 0.20);
+}
